@@ -67,13 +67,13 @@
           <h5 class="text-center">Equipo P2W Recomendado<span></span></h5>
           <b-card-body class="text-center">
              <a data-toggle="tooltip" data-placement="top" title="DPS PRINCIPAL"><img src="~/assets/icon_1.png" alt="DPS" class="icon" ></a>
-              <a data-toggle="tooltip" data-placement="top" title="Subdps"><img src="~/assets/icon_2.png" alt="" class="icon"></a>
-              <a data-toggle="tooltip" data-placement="top" title="Support"><img src="~/assets/icon_5.png" alt="" class="icon"></a>
+              <a data-toggle="tooltip" data-placement="top" title="support"><img src="~/assets/icon_8.png" alt="" class="icon"></a>
+              <a data-toggle="tooltip" data-placement="top" title="Support"><img src="~/assets/yelan.png" alt="" class="icon"></a>
               <a data-toggle="tooltip" data-placement="top" title="Support"><img src="~/assets/icon_3.png" alt="" class="icon"></a>
           </b-card-body>
         </b-card>
         <b-card  no-body class="mt-2 card__centr ">
-          <h5 class="text-center">Equipo P2W Recomendado<span></span></h5>
+          <h5 class="text-center">Equipo F2P Recomendado<span></span></h5>
           <b-card-body class="text-center">
               <a data-toggle="tooltip" data-placement="top" title="DPS PRINCIPAL"><img src="~/assets/icon_1.png" alt="" class="icon"></a>
               <a data-toggle="tooltip" data-placement="top" title="Healer"><img src="~/assets/icon_7.png" alt="" class="icon"></a>

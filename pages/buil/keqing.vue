@@ -1,5 +1,5 @@
 <template>
-    <div>
+     <div>
         <div>
             <nav2/>
         </div>
@@ -125,4 +125,5 @@
  }
 </style>
 <script>
+
 </script>
