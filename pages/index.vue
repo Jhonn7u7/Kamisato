@@ -14,7 +14,7 @@
           </li>
         </ul>
       </div>
-      <img src="/images/hero-2.png" class="absolute blur-sm md:blur-none -z-10 bottom-0 right-0 h-full object-cover" width="600" alt="">
+      <img src="/images/hero-2.webp" class="absolute blur-sm md:blur-none -z-10 bottom-0 right-0 h-full object-cover" width="600" alt="">
     </header>
     <section class="text-xl font-bold">
       hola
