@@ -81,13 +81,6 @@
                <a data-toggle="tooltip" data-placement="top" title="Support"><img src="~/assets/icon_3.png" alt="" class="icon"></a>
           </b-card-body>
         </b-card>
-        <b-card  no-body class="mt-2 card__centr ">
-          <h5 class="text-center">Armas recomendada<span></span></h5>
-          <b-card-body class="text-center">
-              <a @click="modal" data-toggle="tooltip" data-placement="top" title="ARMA PW2"><img src="~/assets/aya-espada.png" alt="" class="icon"></a>
-              <a data-toggle="tooltip" data-placement="top" title="Arma F2P"><img src="~/assets/aya-espada2.png" alt="" class="icon"></a>
-          </b-card-body>
-        </b-card>
       </b-col>
     </b-row>
   </div>

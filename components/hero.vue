@@ -21,7 +21,7 @@
 color: #fff;
     text-align: center;
     line-height: 100vh;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', Arial;
     font-size: 2rem;
     font-weight: 800;
 }

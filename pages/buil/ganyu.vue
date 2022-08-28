@@ -14,7 +14,7 @@
     <b-row class="text_card mt-4" cols="1" cols-md="2">
       <b-col>
         <b-card no-body class="mt-4 text_card">
-          <h5 class="text-center">Luz Matinal de la OrquestaFLOR)<span><img src="~/assets/flor-orquesta.png" alt="flor" class="icon"></span></h5>
+          <h5 class="text-center">Luz Matinal de la Orquesta(FLOR)<span><img src="~/assets/flor-orquesta.png" alt="flor" class="icon"></span></h5>
           <b-card-body>
             <p>Este set le va perfecto para ganyu, ya que al tener 4 piezas aumenta daño cargado y una pasiva de ganyu igual aumenta el daño por cargados. <b>BUSCAREMOS PRINCIPALMENTE DAÑO CRITICO Y PROB MINIMO 45 DE PROB DE CRITICO Y DAÑO MINIMO 200. TRATAREMOS DE HACER SIEMPRE ATAQUES CARGADOS.</b> </p>
             <p>2 piezas Bono de Daño Cryo +15%</p>
