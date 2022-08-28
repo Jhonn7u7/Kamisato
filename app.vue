@@ -4,7 +4,7 @@
     <Title>Agencia Kamisato - Fan Page</Title>
   </Head>
 
-  <Body>
+  <Body class="bg-violet-200 max-w-7xl mx-auto">
     <div>
       <NuxtPage />
     </div>
