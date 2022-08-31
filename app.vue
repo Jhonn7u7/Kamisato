@@ -6,6 +6,7 @@
 
   <Body class="bg-violet-200 mx-auto">
     <div>
+      <NuxtLoadingIndicator color="#4338ca" heigth="10px" />
       <NuxtPage />
     </div>
   </Body>

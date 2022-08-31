@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     shim: false
   },
   modules: [
+    '@nuxt/content',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts'
   ],

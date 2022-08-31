@@ -5,18 +5,18 @@ const isNavbarActive = ref(false)
 <template>
   <div class="px-2 md:px-0">
     <slot name="hero"></slot>
-    <div class="sticky top-0 px-4 py-1 mx-auto">
+    <div class="sticky top-0 px-4 py-1 mx-auto z-50">
       <nav
-        class="min-h-[8vh] flex justify-between items-center text-violet-200 font-bold text-base uppercase select-none px-4 bg-[#171a4a] z-20 rounded-xl shadow-xl">
+        class="min-h-[8vh] flex justify-between items-center text-violet-200 font-bold text-base uppercase select-none px-4 bg-[#171a4a] z-50 rounded-xl shadow-xl">
         <h2 class="font-['Concert_One'] text-xl md:text-3xl font-extrabold">
           <span>Agencia Kamisato</span>
         </h2>
         <ul class="md:inline-flex gap-4 hidden">
           <li class="nav-button animation-text hover:text-white">
-            <a href="#">Incio</a>
+            <nuxt-link to="/">Incio</nuxt-link>
           </li>
           <li class="nav-button animation-text hover:text-white">
-            <a href="#">Personajes</a>
+            <nuxt-link to="/">Personajes</nuxt-link>
           </li>
           <li class="nav-button animation-text hover:text-white">
             <a href="#">Noticias</a>
@@ -37,11 +37,26 @@ const isNavbarActive = ref(false)
         </button>
 
         <div
-          class="animation-text block md:hidden min-h-screen fixed top-0 right-0 bg-indigo-700 translate-x-0 w-10/12 rounded-l-lg p-4 text-violet-200"
+          class="animation-text flex flex-col gap-5 justify-center items-center md:hidden min-h-screen fixed top-0 right-0 bg-indigo-700 translate-x-0 w-10/12 rounded-l-lg p-4 text-violet-200"
           :class="[isNavbarActive ? 'translate-x-0' : 'translate-x-full']">
-
+          <ul class="flex flex-col gap-4">
+            <li class="nav-button animation-text hover:text-white">
+              <nuxt-link to="/">Incio</nuxt-link>
+            </li>
+            <li class="nav-button animation-text hover:text-white">
+              <nuxt-link to="/">Personajes</nuxt-link>
+            </li>
+            <li class="nav-button animation-text hover:text-white">
+              <a href="#">Noticias</a>
+            </li>
+            <li class="nav-button animation-text hover:text-white">
+              <a href="#">Comunidad</a>
+            </li>
+          </ul>
+          <button class="inline-flex justify-center items-center" @click="isNavbarActive = !isNavbarActive">
+            <svg-x class="block w-10 h-10 stroke-white" />
+          </button>
         </div>
-
       </nav>
     </div>
     <slot></slot>
